@@ -13,5 +13,4 @@ public class App
         System.out.println( "Hello World!" );
 	List list = new ArrayList();
     }
-
 }
