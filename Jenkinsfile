@@ -1,7 +1,7 @@
 node {
   stage('SCM') {
     checkout scm
-  }
+  }/**/
   stage('SonarQube Analysis') {
     def mvn = tool '3.8.2';
     withSonarQubeEnv() {
